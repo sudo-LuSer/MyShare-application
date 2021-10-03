@@ -1,0 +1,172 @@
+body{
+
+	background: rgb(0,88,209);
+
+	font-family: sans-serif;
+
+	font-variant-caps:small-caps;
+
+}
+
+nav{
+
+	background:rgb(60,60,60,0.75);
+
+	height: 50px;
+
+	width: 100%;
+
+	border-radius: 10px; 
+
+}
+
+.Exit{
+
+	background: rgb(255,0,0,0.9);
+
+	color: rgb(169,0,0);
+
+}
+
+.Exit:hover{
+
+	background: rgb(255,0,0,1,1);
+
+	color: black;
+
+}
+
+.Min{
+
+	background: rgb(255,197,0,0.9);
+
+	color: (194,84,0);
+
+}
+
+.Min:hover{
+
+	background: rgb(255,197,0,1);
+
+	color: black;
+
+}
+
+.Exit,.Min{
+
+	font-size: 100%;
+
+
+	margin:10px 0px 3.5px 10px;
+
+	text-align: center;
+
+	justify-content: center;
+
+	border: none;
+
+	border-radius: 100px;
+
+	height: 25px;
+
+	width: 25px;
+
+}
+
+footer{
+
+	background : rgb(236,236,236,1);
+
+	height: 200px;
+
+	width: 100%;
+
+	position: absolute;
+
+	left: 0px;
+
+	top: 100%;
+
+}
+
+.Instrucation{
+
+	color: rgb(151,151,151);
+
+}
+
+.statu,.Instrucation{
+
+	color: rgb(190,191,192);
+
+	text-align: center;
+
+	justify-content: center;
+
+}
+
+.titleName,.Instruct{
+
+	font-size: 3vw;
+
+	color: rgb(190,191,192);
+
+}
+
+#QRCODE{
+
+	height: 195px;
+
+	width: 195px;
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 50%;
+
+	transform: translate(-50%,-5%);
+
+}
+
+.user{
+
+	color: rgb(151,151,151);
+
+	font-size: 130%;
+
+}
+
+@media (max-height: 550px){
+
+	#QRCODE{
+
+		visibility: hidden;
+
+	}
+
+}
+
+@media (max-width: 700px){
+
+	.
+
+	footer{
+
+		height: 250px;
+
+	}
+
+	#QRCODE{
+
+		transform: translate(-50%,-25%);
+
+	}
+
+	.titleName,.Instruct{
+
+		font-size: 4vw;
+
+	}
+
+}
